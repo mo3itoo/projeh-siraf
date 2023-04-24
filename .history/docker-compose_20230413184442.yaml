@@ -1,0 +1,16 @@
+version: '3'
+services:
+  prod:
+    container_name: nextjs-prod
+    build:
+      target: production
+      context: .
+      dockerfile: Dockerfile
+      # network: host
+    # restart: always
+    volumes:
+      - .:/opt/app
+      - /opt/app/node_modules
+      - /opt/app/.next
+    ports:
+      - '8020:8020'

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: iransans;
+  src: url('../../public/assets/fonts/iransans/irsans-l.woff');
+}
+
+html,
+body {
+  font-family: iransans;
+}
+
+summary {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+/* 
+  .swiper-pagination{
+    background: red;
+    position: absolute;
+    bottom: "10px";
+  }
+  .swiper-wrapper{
+    background-color: blue;
+  }
+  .swiper-pagination-bullet-active{
+    
+    background: #3b82f6 !important;
+    width: 3rem !important;
+    border-radius: 10px !important;
+    transition: all 0.5s !important;
+
+  }
+    display: flex;
+    align-items: center;
+    justify-content: sp;
+  }
+
+  @layer components {
+    .tw-pagination {
+      @apply flex items-start justify-center pt-5 relative bg-yellow-600;
+    }
+  } */

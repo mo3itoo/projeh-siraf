@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: iransans;
+    src: url("../../public/assets/fonts/iransans/irsans-l.woff");
+}
+
+html , body{
+    font-family: iransans;
+  }
+<<<<<<< HEAD
+
+=======
+  /* 
+  .swiper-pagination{
+    background: red;
+    position: absolute;
+    bottom: "10px";
+  }
+  .swiper-wrapper{
+    background-color: blue;
+  }
+>>>>>>> mo3ito
+  .swiper-pagination-bullet-active{
+    
+    background: #3b82f6 !important;
+    width: 3rem !important;
+    border-radius: 10px !important;
+    transition: all 0.5s !important;
+<<<<<<< HEAD
+  }
+=======
+  }
+  .swiper{
+    background-color: red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: sp;
+  }
+
+  @layer components {
+    .tw-pagination {
+      @apply flex items-start justify-center pt-5 relative bg-yellow-600;
+    }
+  } */
+>>>>>>> mo3ito
